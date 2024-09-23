@@ -1,22 +1,145 @@
-body {}
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
-.alerts-container {
+
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;    
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
 
 }
 
-.quotes-container {
+.navbar {
+    margin: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/* Alert Container */
+
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    border: 0;
+    
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #eed802;
+    border-color: #eed802;
+}
+
+.callout-container {
+    height: 100vh;
+    background: url(../images/whiskey-background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
+/* Block Dividers */
+
+.block-divider {
+    border: none;
+    height: 5px;
+    width: 75px;
+    border-radius: 5px;
+    background-color: #444;
 
 }
 
-.features-container {
-
+.block-divider--orange {
+    background-color: #f05f40;
 }
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: #fafafa;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    color: #a7a7a7;
+}
+
+.jumbotron small {
+    color: #a7a7a7;
+    font-style: italic;
+}
+
+/* CTA */
 
 .btn--cta {
-
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+        
 }
 
 .btn--red {
-
+    color: #ffffff;
+    background-color: #f05f40;
+    border-color: #f05f40;
 }
+
+.btn--red:hover {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+
+.quotes-container {}
+
+.features-container {}
 
